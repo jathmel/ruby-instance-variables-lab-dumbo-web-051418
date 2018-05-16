@@ -1,6 +1,6 @@
 class Dog
-  def bark
-    puts 'Woof!'
+  def name(d_name)
+    d_name
   end
 
   def sit
