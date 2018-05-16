@@ -1,9 +1,9 @@
 class Dog
-  def name
-    d_name
+  def name=(dogs_name)
+    @this_dog_name = d_name
   end
 
-  def sit
-    puts "The Dog is sitting"
+  def name
+    this_dog_name
   end
 end
